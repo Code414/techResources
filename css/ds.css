@@ -1,0 +1,37 @@
+.background_image{
+    height:25vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../images/bg.jpeg');
+    background-position: center;
+}
+
+h1{
+    padding:40px 10px;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.Links{
+    background-color: rgb(206, 180, 180);
+    height:30vh;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin:auto;
+    text-align: left;
+    justify-content: center;
+    font-size: large;
+    
+}
+
+@media only screen and (max-width: 1260px){
+    h1{
+        padding:3px 30px;
+        padding-bottom: 0px;
+    }
+    
+   
+}
